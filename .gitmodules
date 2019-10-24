@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/rycolab/rycolab.github.io.git
+[submodule "master"]
+	path = master
+	url = https://github.com/rycolab/rycolab.github.io.git

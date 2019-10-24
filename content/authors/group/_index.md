@@ -1,26 +1,17 @@
 ---
-# Display name
-name: Ryan Cotterell
 
 # Username (this should match the folder name)
 authors:
-- admin
+- group
 
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Professor of Computational Linguistics
-
-# Organizations/Affiliations
-organizations:
-- name: ETH Zurich
-  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
-interests:
+Research Areas:
 - Computational Linguistics
 - Information Theory
 
@@ -58,6 +49,4 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Our group is lead by Ryan Cotterell, Assistant Professor at the University of Cambridge. We are a group of linguists and computer scientists
