@@ -1,19 +1,24 @@
 ---
+# Display name
+name: Ekaterina Vylomova
 
 # Username (this should match the folder name)
 authors:
-- group
+- kat
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
+# Role/position
+role: Postdoctoral Fellow
+
+# Organizations/Affiliations
+organizations:
+- name: University of Melbourne
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio : ""
-
-# List (academic) interests or hobbies
-interests : ["Bias in Natural Language Processing Systems", "Machine Translation", "Information Theory", "Math!"]
-
+bio: 
 
 
 # Social/Academic Networking
@@ -44,10 +49,8 @@ email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups: []
+user_groups:
+- Members
 ---
 
-We are a group of collaborators lead by <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at the University of Cambridge, doing research in a diverse range of Natural Language Processing topics.  
-    
-
-
+Ekaterina Vylomova is a Postdoctoral Fellow at the University of Melbourne. She holds a PhD in Computer Science obtained from the University of Melbourne. Her research is focused on compositionality modelling for morphology, models for derivational morphology, neural machine translation, and diachronic language modeling. 
