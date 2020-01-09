@@ -12,7 +12,11 @@ superuser: true
 bio : ""
 
 # List (academic) interests or hobbies
-interests : ["Bias in Natural Language Processing Systems", "Machine Translation", "Information Theory", "Math!"]
+interests : ["Decoding Strategies for Neural MT",
+"Information-Theoretic Linguistics",
+"Linguistic Typology", "Bias in Natural Language Processing Systems", "Methaphor", "Metaphor", "Everything under the sun"]
+
+foci : ["Decoding Strategies for Neural MT", "Information-Theoretic Linguistics"]
 
 
 
@@ -47,7 +51,7 @@ email: ""
 user_groups: []
 ---
 
-We are a group of collaborators lead by <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at the University of Cambridge, doing research in a diverse range of Natural Language Processing topics.  
+We are a group of collaborators brought together by <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at the University of Cambridge, doing research in a diverse range of Natural Language Processing topics.  
     
 
 

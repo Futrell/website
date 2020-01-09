@@ -50,7 +50,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- Affiliated
 ---
 
 Ekaterina Vylomova is a Postdoctoral Fellow at the University of Melbourne. She holds a PhD in Computer Science obtained from the University of Melbourne. Her research is focused on compositionality modelling for morphology, models for derivational morphology, neural machine translation, and diachronic language modeling. 

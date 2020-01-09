@@ -1,9 +1,11 @@
 [submodule "themes/academic"]
 	path = themes/academic
 	url = https://github.com/gcushen/hugo-academic.git
-[submodule "public"]
-	path = public
-	url = https://github.com/rycolab/rycolab.github.io.git
 [submodule "master"]
 	path = master
 	url = https://github.com/rycolab/rycolab.github.io.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/rycolab/rycolab.github.io.git
+	branch = master

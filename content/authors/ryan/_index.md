@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Computational Linguistics
+role: Professor of Computer Science
 
 # Organizations/Affiliations
 organizations:
