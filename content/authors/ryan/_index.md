@@ -7,15 +7,13 @@ authors:
 - ryan
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Professor of Computer Science
 
 # Organizations/Affiliations
 organizations:
-- name: University of Cambridge
-  url: "https://www.cam.ac.uk/"
 - name: ETH Zurich
   url: "https://inf.ethz.ch"
 
