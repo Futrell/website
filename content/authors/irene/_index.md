@@ -1,29 +1,24 @@
 ---
 # Display name
-name: Ryan Cotterell
+name: Irene
 
 # Username (this should match the folder name)
 authors:
-- ryan
+- irene
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Computer Science
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: ETH Zurich
-  url: "https://inf.ethz.ch"
-
+- name: University of Cambridge
+  url: "https://www.cam.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: lecturer at the University of Cambridge
-
-interests:
-- Computational Linguistics
-- Information Theory
+bio: PhD student at the University of Cambridge
 
 
 # Social/Academic Networking
@@ -33,16 +28,8 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:rcotterell@inf.ethz.ch"  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/ryandcotterell
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=DexOqtoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/ryancotterell
+  link: "mailto:ikn20@cam.ac.uk" 
+  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -57,5 +44,4 @@ email: ""
 user_groups:
 - Members
 ---
-
 

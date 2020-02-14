@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Research Assistant
+role: PhD Student/Web Meister
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://inf.ethz.ch"
 
 # Short bio (displayed in user profile at end of posts)
-bio: research assistant at ETH Zurich
+bio: PhD Student at ETH Zurich
 
 
 # Social/Academic Networking
@@ -43,4 +43,4 @@ user_groups:
 - Members
 ---
 
-Clara is currently a research assistant in the Advanced Software Technologies lab at ETH. She'll be starting her PhD with Ryan when he joins ETH in spring of 2020. Her research interests include neural machine translation and robustness in AI-based systems. In her free time, she likes to rock climb and trail run.
+Clara recently started her PhD with Ryan. Her research interests include neural machine translation and robustness in AI-based systems. In her free time, she likes to rock climb and trail run.

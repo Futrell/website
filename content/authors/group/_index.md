@@ -14,7 +14,7 @@ bio : ""
 # List (academic) interests or hobbies
 interests : []
 
-foci : ["Decoding Strategies for Neural MT", "Information-Theoretic Linguistics", "Linguistic Typology", "Bias in Natural Language Processing Systems", "Metaphor"]
+foci : ["Decoding Strategies for Neural MT", "Information-Theoretic Linguistics", "Linguistic Typology", "Bias in Natural Language Processing Systems", "Metaphor", "Low-resource Linguistic Annotation","Algorithmics for Parsing", "Analyzing Neural Representations of Language"]
 
 
 
@@ -49,7 +49,7 @@ email: ""
 user_groups: []
 ---
 
-We are a group of collaborators brought together by <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at ETH Zürich, doing research in a diverse range of Natural Language Processing topics.  
+We are a collocation of collaborators working with <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at ETH Zürich, doing research on a diverse range of Natural Language Processing topics.  
     
 
 

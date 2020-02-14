@@ -4,7 +4,7 @@ name: Edoardo M. Ponti
 
 # Username (this should match the folder name)
 authors:
-- ran
+- edo
 
 # Is this the primary user of the site?
 superuser: false
@@ -50,7 +50,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- Affiliated
 ---
  Edoardo is a third-year Ph.D. student in Computational Linguistics at the [University of Cambridge](https://www.cam.ac.uk/), where he is part of [St John's College](https://www.joh.cam.ac.uk/). He is supervised by Prof. [Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/) and funded through the ERC project [LEXICAL](http://ltl.mml.cam.ac.uk/projects/lexical/). He has previously interned as an AI/ML researcher at [Apple](https://www.apple.com/) in Cupertino, and been awarded a [Google Research Faculty Award](https://ai.google/research/outreach/faculty-research-awards/) for a project co-written with his supervisor. His research focuses on few-shot multilingual learning and on the specialization of distributional word representations with structured knowledge.
 
