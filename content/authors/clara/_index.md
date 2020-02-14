@@ -20,6 +20,10 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: PhD Student at ETH Zurich
 
+interests:
+- Neural Machine Translation
+- Information Theory
+- Bringin' Statistics Back
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

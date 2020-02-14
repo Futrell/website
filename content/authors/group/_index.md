@@ -49,7 +49,9 @@ email: ""
 user_groups: []
 ---
 
-We are a collocation of collaborators working with <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at ETH Zürich, doing research on a diverse range of Natural Language Processing topics.  
+We are a collocation of collaborators working with <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at ETH Zürich, doing research on a diverse range of topics in computational linguistics, natural language processing and machine learning.
+
+Lab Motto: We put the fun the funicular! (Photo coming soon.)  
     
 
 
