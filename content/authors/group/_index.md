@@ -11,10 +11,12 @@ superuser: true
 # Short bio (displayed in user profile at end of posts)
 bio : ""
 
+nb : "I am not taking students at the moment—my lab has reached critical mass. I spend roughly 3-4 hours a week with my primary advisees and a similar amount of time with many of my close collaborators as well. I am fresh out of cycles."
+
 # List (academic) interests or hobbies
 interests : []
 
-foci : ["Decoding Strategies for Neural MT", "Information-Theoretic Linguistics", "Linguistic Typology", "Bias in Natural Language Processing Systems", "Metaphor", "Low-resource Linguistic Annotation","Algorithmics for Parsing", "Analyzing Neural Representations of Language"]
+foci : ["Decoding Strategies for Neural MT", "Information-Theoretic Linguistics", "Computational Typology", "Computational Morphology", "Bias and Fairness in NLP Systems", "Computational Approaches to Metaphor", "Low-resource Linguistic Annotation","Algorithmics for Parsing", "Interpreting Neural Representations of Language"]
 
 
 
@@ -49,9 +51,9 @@ email: ""
 user_groups: []
 ---
 
-We are a collocation of collaborators working with <a href="http://ryancotterell.github.io">Ryan Cotterell</a>, Assistant Professor at ETH Zürich, doing research on a diverse range of topics in computational linguistics, natural language processing and machine learning.
+We are a collocation of collaborators working on a diverse range of topics in computational linguistics, natural language processing and machine learning. 
 
-Lab Motto: We put the fun the funicular! (Photo coming soon.)  
+**Lab Motto**: We put the fun in funicular! (Photo coming soon.)  
     
 
 

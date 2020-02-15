@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor of Computer Science
+role: Assistant Professor of Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -19,12 +19,10 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: lecturer at the University of Cambridge
+bio: Assistant Professor of Computer Science at ETH Zurich
 
 interests:
-- Computational Linguistics
-- Information Theory
-
+- Funiculars
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

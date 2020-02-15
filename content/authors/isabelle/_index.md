@@ -1,27 +1,30 @@
 ---
 # Display name
-name: Irene
+name: Isabelle Augenstein
 
 # Username (this should match the folder name)
 authors:
-- irene
+- isabelle
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: MPhil Student
+role: Associate Professor of Computer Science
 
 # Organizations/Affiliations
 organizations:
-- name: University of Cambridge
-  url: "https://www.cam.ac.uk/"
+- name: University of Copenhagen
+  url: "https://www.ku.dk/english/"
+
 
 # Short bio (displayed in user profile at end of posts)
-bio: MPhil student at the University of Cambridge
+bio: 
 
 interests:
-- information-theoretic linguistics
+- bias and fairness in NLP
+- computational typology
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -30,8 +33,16 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:ikn20@cam.ac.uk" 
-  
+  link: "mailto:augenstein@di.ku.dk"  # For a direct email link, use "mailto:test@example.org".
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/IAugenstein
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=DjJp0dcAAAAJ&hl=bg
+- icon: github
+  icon_pack: fab
+  link: https://github.com/isabelleaugenstein
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -44,6 +55,9 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Members
+- Affiliated
 ---
+
+Isabelle is an associate professor at the University of Copenhagen, Department of Computer Science and work in the general areas of Statistical Natural Language Processing and Machine Learning
+
 
