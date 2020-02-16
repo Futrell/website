@@ -23,7 +23,7 @@ bio: PhD Student at ETH Zurich
 interests:
 - Neural Machine Translation
 - Information Theory
-- Bringin' Statistics Back
+- Bringin' Statistics Back **to NLP**
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

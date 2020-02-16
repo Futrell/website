@@ -32,6 +32,13 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:ep490@cam.ac.uk"  # For a direct email link, use "mailto:test@example.org".
+
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/PontiEdoardo
+- icon: github
+  icon_pack: fab
+  link: https://github.com/ducdauge
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
