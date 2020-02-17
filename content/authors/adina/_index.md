@@ -15,7 +15,7 @@ role: Postdoctoral Researcher
 # Organizations/Affiliations
 organizations:
 - name: FAIR NYC
-  url: ""
+  url: "https://ai.facebook.com/research/"
 
 
 # Short bio (displayed in user profile at end of posts)
@@ -54,7 +54,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Affiliated
+- Friends of the Lab
 ---
 
 

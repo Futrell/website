@@ -21,6 +21,8 @@ organizations:
 bio: PhD student at the University of Cambridge
 
 interests:
+- semirings
+- information theory
 - parsing
 - bias and fairness in NLP
 
@@ -47,5 +49,5 @@ email: ""
 user_groups:
 - Members
 ---
-Ran is a first year PhD student at the University of Cambridge with Ryan. He is interested in research regarding gender bias in NLP systems and is picking up new interests as he goes along. While he waits for his systems to train he likes to play tennis and do stand-up comedy.
+Ran is a first year PhD student at the University of Cambridge with Ryan. He is primarily interested in research regarding algorithms, parsing, entropy computation, and gender bias in NLP systems and is picking up new interests as he goes along. While he waits for his systems to train he likes to play tennis, lacrosse and do stand-up comedy.
 

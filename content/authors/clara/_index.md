@@ -14,7 +14,7 @@ role: PhD Student/Web Meister
 
 # Organizations/Affiliations
 organizations:
-- name: ETH Zurich
+- name: ETH Zürich
   url: "https://inf.ethz.ch"
 
 # Short bio (displayed in user profile at end of posts)

@@ -55,7 +55,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Affiliated
+- Friends of the Lab
 ---
 
 Isabelle is an associate professor at the University of Copenhagen, Department of Computer Science and work in the general areas of Statistical Natural Language Processing and Machine Learning

@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor
+role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
@@ -19,7 +19,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Associate Professor of Linguistics
 
 
 interests:
@@ -46,7 +46,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Affiliated
+- Friends of the Lab
 ---
 
 
