@@ -14,7 +14,7 @@ role: Associate Professor of Linguistics
 
 # Organizations/Affiliations
 organizations:
-- name: University of Colorado, Boulder
+- name: University of Colorado Boulder
   url: "https://www.colorado.edu/"
 
 

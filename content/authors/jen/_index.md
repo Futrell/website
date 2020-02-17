@@ -56,4 +56,4 @@ email: ""
 user_groups:
 - Members
 ---
-
+Jennifer is an MPhil student at the  [University of Cambridge](https://www.cam.ac.uk/), supervised by Ryan and supported by a [Cambridge DeepMind Scholarship](https://www.cambridgetrust.org/scholarships/deepmind-cambridge-scholarship/). She is interested in techniques for low-resource NLP, gender bias in NLP and annotation of linguistic data, among other things. Her background is in Algebraic Geometry, so she is always happy to get a chance to put her mathematical skills to good use. In her spare time she enjoys learning languages, reading, eating chicken katsu curry and travelling as much as possible.

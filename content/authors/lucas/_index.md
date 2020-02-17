@@ -53,4 +53,4 @@ email: ""
 user_groups:
 - Members
 ---
-
+Lucas is an MPhil student at the [University of Cambridge](https://www.cam.ac.uk/), supervised by Ryan. He is primarily interested in the development of interpretability methods and their application to NLP models.
