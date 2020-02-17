@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoctoral Fellow
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -37,7 +37,18 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:ekaterina.vylomova@unimelb.edu.au"  # For a direct email link, use "mailto:test@example.org".
-
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/ivrik
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=JlVHhVUAAAAJ&hl=en
+- icon: github
+  icon_pack: fab
+  link: https://github.com/ivri
+- icon: portrait
+  icon_pack: fas
+  link: "http://kat.academy/"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -45,7 +56,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Friends of the Lab
+- Affiliates of the Lab
 ---
 
 Ekaterina Vylomova is a Postdoctoral Fellow at the University of Melbourne. She holds a PhD in Computer Science obtained from the University of Melbourne. Her research is focused on compositionality modelling for morphology, models for derivational morphology, neural machine translation, and diachronic language modeling. 
