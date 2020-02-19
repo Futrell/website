@@ -50,4 +50,4 @@ user_groups:
 - Members
 ---
 
-Clara recently started her PhD with Ryan. Her research interests include neural machine translation and robustness in AI-based systems. In her free time, she likes to rock climb and trail run.
+Clara recently started her PhD with Ryan at ETH Zürich. Her research interests include neural machine translation and robustness in AI-based systems. In her free time, she likes to rock climb, trail run, and search for the elusive cheap bar in Switzerland.
