@@ -23,7 +23,8 @@ bio: PhD student at the University of Cambridge
 interests:
 - computational morphology
 - argument structure
-- bilingual lexicon induction
+- multilingual NLP
+- computational typology
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -60,5 +61,8 @@ email: ""
 user_groups:
 - Members
 ---
- 
+Paula is a third year PhD student at the University of Cambridge, where she is advised by [Prof Ann Copestake](https://www.cl.cam.ac.uk/~aac10/) and Ryan. She is supported by the [Vice-Chancellor's and Selwyn College Scholarship](https://www.cambridgetrust.org/scholarships/v-c-awards-and-cambridge-international-scholarships/). Prior to starting her PhD she did the BSc in Computer Science at the University of St Andrews and completed the MPhil in Advanced Computer Science at Cambridge. During those degrees she was generously supported by the [G. D. Fahrenheit Scholarship](http://www.european-funding-guide.eu/scholarship/8463-gd-fahrenheit-scholarship), awarded by the City Council of Gdańsk. 
+
+Her main research interests include cross-lingual learning and computational approaches to linguistic typology and morphology.  She is fascinated by how world’s languages differ in their means of encoding meaning and hopes that investigating those differences, alongside language similarities can facilitate building better, less biased NLP systems.
+
 

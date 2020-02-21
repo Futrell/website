@@ -22,7 +22,8 @@ organizations:
 bio: 
 
 interests:
-
+- multilingual NLP
+- efficient cross-lingual learning
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -47,5 +48,8 @@ email: ""
 user_groups:
 - Members
 ---
+Marinela started her PhD in October 2019 in the [Language Technology Lab](http://ltl.mml.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/) under the supervision of [Prof. Anna Korhonen](https://sites.google.com/site/annakorhonen/). She is a member of [Trinity College](https://www.trin.cam.ac.uk/) and is funded by Trinity Overseas Bursary.
+
+Before starting her PhD, Marinela obtained MSc and BSc degrees in Mathematics, both from the [University of Belgrade](https://www.bg.ac.rs/en/) in Serbia.
 
 

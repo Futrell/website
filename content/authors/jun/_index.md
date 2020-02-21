@@ -21,7 +21,8 @@ organizations:
 bio: MPhil student at the University of Cambridge
 
 interests:
-- computational typology
+- computational psychology
+- video game technology
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

@@ -23,7 +23,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Assistant Professor of Computer Science at ETH Zürich
 
-nb : "I am not taking students at the moment—my lab has reached critical mass. I spend roughly 3-4 hours a week with my primary advisees and a similar amount of time with many of my close collaborators as well. I am fresh out of cycles."
+nb : "<b>Note:</b> I am not taking students at the moment—my lab has reached critical mass. I spend roughly 3-4 hours a week with my primary advisees and a similar amount of time with many of my close collaborators as well. I am fresh out of cycles :disappointed:"
 
 interests:
 - Funiculars

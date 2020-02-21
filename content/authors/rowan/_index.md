@@ -55,4 +55,5 @@ email: ""
 user_groups:
 - Members
 ---
+Rowan is a masters student, now in his fourth year at the [University of Cambridge](https://www.cam.ac.uk/), jointly supervised by Ryan and Simone Teufel. He previously worked on gender-bias mitigation from machine-learnt semantic models, and is currently working on conceptual metaphor. He, too, has things he does in his free time.
 

@@ -51,4 +51,4 @@ email: ""
 user_groups:
 - Members
 ---
-
+Stefan is an MPhil student at the University of Cambridge. His interests include explainability of deep learning models, neural machine translation, and natural language generation. He likes spending his free time with friends and whenever he does not have free time, he likes working with friends. 

@@ -21,6 +21,13 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
+interests:
+- computational morphology
+- parsing
+- information-theoretic linguistics
+- computational typology
+- linguistic annotation
+- low-resource NLP
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -56,4 +63,5 @@ user_groups:
 - Members
 ---
 
+Tiago is a first year PhD student at University of Cambridge, where he is supervised by Ryan. His primary research focus is on morphology, using information theory to study it. Tiago enjoys the few sunny days in the UK and is always looking forward to summer.
 

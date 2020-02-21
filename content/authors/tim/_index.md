@@ -23,6 +23,7 @@ bio:
 
 
 interests:
+- parsing
 
 
 # Social/Academic Networking
