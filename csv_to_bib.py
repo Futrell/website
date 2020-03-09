@@ -124,13 +124,16 @@ def to_bib(ref):
     if attr == "author":
       all_authors = attr_value.replace('and ', ',').split(",") 
       bib_ref += '  %s = {' % attr
-      for author in all_authors:
+      for i, author in enumerate(all_authors):
         # in case of empty string
         if author.isspace():
           continue
         full_name = author.split()
         bib_ref += '%s, ' % full_name[-1]
-        bib_ref += '%s and \n' % ' '.join(full_name[:len(full_name) - 1])
+        if i == len(all_authors) - 1:
+          bib_ref += ' '.join(full_name[:len(full_name) - 1])
+        else:
+          bib_ref += '%s and \n' % ' '.join(full_name[:len(full_name) - 1])
       bib_ref += '},\n'
     else:
       bib_ref += '  %s = {%s},\n' %(attr, attr_value.strip())

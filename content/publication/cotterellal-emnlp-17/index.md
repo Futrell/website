@@ -1,7 +1,7 @@
 ---
 title: "Paradigm Completion for Derivational Morphology"
 date: 2017-09-01
-publishDate: 2020-03-09T17:39:14.695811Z
+publishDate: 2020-03-09T21:14:47.166636Z
 authors: ["Ryan Cotterell", "Ekaterina Vylomova", "Huda Khayrallah", "Christo Kirov", "David Yarowsky"]
 publication_types: ["1"]
 abstract: "The generation of complex derived word forms has been an overlooked problem in NLP; we fill this gap by applying neural sequence-to-sequence models to the task. We overview the theoretical motivation for a paradigmatic treatment of derivational morphology, and introduce the task of derivational paradigm completion as a parallel to inflectional paradigm completion. State-of-the-art neural models adapted from the inflection task are able to learn the range of derivation patterns, and outperform a non-neural baseline by 16.4%. However, due to semantic, historical, and lexical considerations involved in derivational morphology, future work will be needed to achieve performance parity with inflection-generating systems."
