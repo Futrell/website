@@ -23,6 +23,8 @@ bio: PhD student at the University of Cambridge
 interests:
 - Inductive bias of neural models
 - Linguistic typology
+- Multilingual NLP
+- Multi-modal NLP
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
