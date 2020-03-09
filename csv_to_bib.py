@@ -105,6 +105,7 @@ def to_bib(ref):
     if attr == READY_KEY:
         if attr_value == 'no':
           return None, None
+        continue
 
     if attr == KEY:
       continue
@@ -122,7 +123,7 @@ def to_bib(ref):
 
     if attr == "author":
       all_authors = attr_value.replace('and ', ',').split(",") 
-      bib_ref += '  %s = "' % attr
+      bib_ref += '  %s = {' % attr
       for author in all_authors:
         # in case of empty string
         if author.isspace():
@@ -130,9 +131,9 @@ def to_bib(ref):
         full_name = author.split()
         bib_ref += '%s, ' % full_name[-1]
         bib_ref += '%s and \n' % ' '.join(full_name[:len(full_name) - 1])
-      bib_ref += '",\n'
+      bib_ref += '},\n'
     else:
-      bib_ref += '  %s = "%s",\n' %(attr, attr_value.strip())
+      bib_ref += '  %s = {%s},\n' %(attr, attr_value.strip())
 
   bib_ref += "}\n"
   return ref[KEY], bib_ref

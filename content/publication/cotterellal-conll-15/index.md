@@ -1,7 +1,7 @@
 ---
 title: "Labeled Morphological Segmentation with Semi-Markov Models"
 date: 2015-07-01
-publishDate: 2020-03-09T15:23:09.408766Z
+publishDate: 2020-03-09T17:39:39.600091Z
 authors: ["Ryan Cotterell", "Thomas Müller", "Alexander Fraser", "Hinrich Schütze"]
 publication_types: ["1"]
 abstract: "We present labeled morphological segmentation—an alternative view of morphological processing that unifies several tasks. We introduce a new hierarchy of morphotactic tagsets and Chipmunk, a discriminative morphological segmentation system that, contrary to previous work, explicitly models morphotactics. We show improved performance on three tasks for all six languages: (i) morphological segmentation, (ii) stemming and (iii)  morphological tag classification. For morphological segmentation our method shows absolute improvements of 2-6 points F1 over a strong baseline."
