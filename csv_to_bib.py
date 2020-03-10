@@ -18,6 +18,7 @@ BIB_ATTRIBUTE_MAP = {
   'chapter':      ['chapter'],
   'edition':      ['edition'],
   'editor':       ['editor', 'editors'],
+  'featured':     ['featured'],
   'url':          ['url', 'howpublished', 'anthology'],
   'journal':      ['journal', 'journal name'],
    KEY:          [KEY],
@@ -101,11 +102,15 @@ def guess_ref_type(ref):
 def to_bib(ref):
   ref_type = guess_ref_type(ref)
   bib_ref = "@%s{%s, \n" % (ref_type, ref.get(KEY, "unnamed"))
+  featured = False
   for attr, attr_value in ref.items():
     if attr == READY_KEY:
         if attr_value == 'no':
           return None, None
         continue
+    if attr == 'featured':
+      if attr_value == 'yes':
+        featured = True
 
     if attr == KEY:
       continue
@@ -133,13 +138,13 @@ def to_bib(ref):
         if i == len(all_authors) - 1:
           bib_ref += ' '.join(full_name[:len(full_name) - 1])
         else:
-          bib_ref += '%s and \n' % ' '.join(full_name[:len(full_name) - 1])
+          bib_ref += '%s and \n\t' % ' '.join(full_name[:len(full_name) - 1])
       bib_ref += '},\n'
     else:
       bib_ref += '  %s = {%s},\n' %(attr, attr_value.strip())
 
   bib_ref += "}\n"
-  return ref[KEY], bib_ref
+  return ref[KEY], bib_ref, featured
 
 
 def csv_to_bib(csv_file, delimiter):
@@ -165,9 +170,9 @@ def csv_to_bib(csv_file, delimiter):
         continue
 
       reference = parse_reference(row, columns.valid)
-      key, bib = to_bib(reference)
+      key, bib, featured = to_bib(reference)
       if key:
-        bib_refs[key] = bib
+        bib_refs[key] = bib, featured
 
   return bib_refs
 
@@ -192,11 +197,15 @@ def main(argv):
   for csv_file in csv_files:
     try:
       bibs = csv_to_bib(csv_file, delimiter)
-      for key, bib in bibs.items():
+      for key, tup in bibs.items():
+        bib, featured = tup
         file_name = os.path.join(BIB_DIR, key + '.bib')
         with open(file_name, 'w') as f:
           f.write(bib)
-        subprocess.run(['academic', 'import', '--bibtex', file_name, '--overwrite'])
+        command = ['academic', 'import', '--bibtex', file_name, '--overwrite']
+        if featured:
+          command.append('--featured')
+        subprocess.run(command)
     except CSVParseError as e:
         print ('Error: Failed to parse %s: %s' % (csv_file, str(e)), file=sys.stderr)
         failure = 1

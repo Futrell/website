@@ -1,7 +1,7 @@
 ---
 title: "A Simple Joint Model for Improved Contextual Neural Lemmatization"
 date: 2019-06-01
-publishDate: 2020-03-09T21:13:50.497118Z
+publishDate: 2020-03-10T22:21:33.870631Z
 authors: ["Chaitanya Malaviya", "Shijie Wu", "Ryan Cotterell"]
 publication_types: ["1"]
 abstract: "English verbs have multiple forms. For instance, talk may also appear as talks, talked or talking, depending on the context. The NLP task of lemmatization seeks to map these diverse forms back to a canonical one, known as the lemma. We present a simple joint neural model for lemmatization and morphological tagging that achieves state-of-the-art results on 20 languages from the Universal Dependencies corpora. Our paper describes the model in addition to training and decoding procedures. Error analysis indicates that joint morphological tagging and lemmatization is especially helpful in low-resource lemmatization and languages that display a larger degree of morphological complexity."

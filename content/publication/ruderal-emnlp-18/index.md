@@ -1,7 +1,7 @@
 ---
 title: "A Discriminative Latent-Variable Model for Bilingual Lexicon Induction"
 date: 2018-10-01
-publishDate: 2020-03-09T21:14:37.375679Z
+publishDate: 2020-03-10T22:20:54.662186Z
 authors: ["Sebastian Ruder$^*$", "Ryan Cotterell$^*$", "Yova Kementchedjhieva", "Anders Søgaard"]
 publication_types: ["1"]
 abstract: "We introduce a novel discriminative latent-variable model for the task of bilingual lexicon induction. Our model combines the bipartite matching dictionary prior of Haghighi et al. (2008) with a state-of-the-art embedding-based approach. To train the model, we derive an efficient Viterbi EM algorithm. We provide empirical improvements on six language pairs under two metrics and show that the prior theoretically and empirically helps to mitigate the hubness problem. We also demonstrate how previous work may be viewed as a similarly fashioned latent-variable model, albeit with a different prior."
