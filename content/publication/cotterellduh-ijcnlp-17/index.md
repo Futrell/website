@@ -1,12 +1,15 @@
 ---
 title: "Low-Resource Named Entity Recognition with Cross-lingual, Character-Level Neural Conditional Random Fields"
 date: 2017-11-01
-publishDate: 2020-03-09T21:14:46.108045Z
+publishDate: 2020-03-11T12:55:30.616765Z
 authors: ["Ryan Cotterell", "Kevin Duh."]
 publication_types: ["1"]
 abstract: "Low-resource named entity recognition is still an open problem in NLP. Most state-of-the-art systems require tens of thousands of annotated sentences in order to obtain high performance. However, for most of the world's languages it is unfeasible to obtain such annotation. In this paper, we present a transfer learning scheme, whereby we train character-level neural CRFs to predict named entities for both high-resource languages and low-resource languages jointly. Learning character representations for multiple related languages allows knowledge transfer from the high-resource languages to the low-resource ones, improving F1 by up to 9.8 points."
 featured: false
 publication: "*Proceedings of the Eighth International Joint Conference on Natural Language Processing*"
-url_pdf: "https://www.aclweb.org/anthology/I17-2016.pdf"
+links:
+- name: Anthology
+  url: https://www.aclweb.org/anthology/I17-2016.pdf
+url_pdf: papers/cotterell+duh.ijcnlp17.pdf
 ---
 

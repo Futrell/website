@@ -13,36 +13,26 @@ READY_KEY = 'ready'
 BIB_ATTRIBUTE_MAP = {
   'abstract':     ['abstract'],
   'address':      ['address', 'place of publication'],
+  'anthology':    ['anthology'],
   'author':       ['author', 'authors'],
-  'arXiv':        ['arXiv'],
+  'arXiv':        ['arxiv'],
+  'booktitle':    ['volume title', 'booktitle'],
   'chapter':      ['chapter'],
   'edition':      ['edition'],
   'editor':       ['editor', 'editors'],
   'featured':     ['featured'],
-  'url':          ['url', 'howpublished', 'anthology'],
   'journal':      ['journal', 'journal name'],
-   KEY:          [KEY],
+   KEY:           [KEY],
   'month':        ['month'],
   'number':	      ['issue number'],
   'pages':        ['pages'],
   'publisher':    ['publisher'],
   'series':       ['series'],
   'title':        ['title'],
-  'booktitle':    ['volume title', 'booktitle'],
+  'url':          ['url'],
   'volume':       ['volume'],
   'year':         ['year', 'date'],
   'ready':        ['ready']
-}
-
-ALLOWED_ATTRIBUTES_BY_TYPE = {
-  'article': [ 'author', 'title', 'journal', 'year', 'volume', 'number',
-               'pages', 'month', 'doi', 'note', KEY],
-  'book': [ 'author', 'editor', 'title', 'publisher', 'year', 'volume',
-            'series', 'address', 'edition', 'month', 'note', KEY],
-  'incollection': [ 'author', 'title', 'booktitle', 'publisher', 'year',
-                    'editor', 'volume/number', 'series', 'type', 'chapter',
-                    'pages', 'address', 'edition', 'month', 'note', KEY],
-  'misc': [ 'author', 'title', 'howpublished', 'month', 'year', 'note', KEY]
 }
 
 class CSVParseError(Exception):
@@ -101,30 +91,30 @@ def guess_ref_type(ref):
 
 def to_bib(ref):
   ref_type = guess_ref_type(ref)
-  bib_ref = "@%s{%s, \n" % (ref_type, ref.get(KEY, "unnamed"))
+
   featured = False
+
+  if ref.get('anthology'):
+    ref['url'] = ref.get('anthology')
+  elif ref.get('arXiv'):
+    ref['url'] = ref.get('arXiv')
+
+  bib_ref = "@%s{%s, \n" % (ref_type, ref.get(KEY, "unnamed"))
   for attr, attr_value in ref.items():
     if attr == READY_KEY:
         if attr_value == 'no':
-          return None, None
+          return None, None, None
         continue
     if attr == 'featured':
       if attr_value == 'yes':
         featured = True
+      continue
 
     if attr == KEY:
       continue
 
     if not attr_value:
       continue
-
-    if attr == 'arXiv':
-      if ref.get('url'):
-        continue
-      attr = 'url'
-
-    if attr == 'url' and attr_value.startswith('http'):
-      attr_value = "{%s}" % attr_value
 
     if attr == "author":
       all_authors = attr_value.replace('and ', ',').split(",") 
@@ -211,6 +201,7 @@ def main(argv):
         failure = 1
     except FileNotFoundError as e:
         print ('Error: Failed to parse %s: file not found' % csv_file, file=sys.stderr)
+        print(e)
         failure = 1
 
   return failure
