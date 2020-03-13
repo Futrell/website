@@ -30,6 +30,7 @@ BIB_ATTRIBUTE_MAP = {
   'series':       ['series'],
   'title':        ['title'],
   'url':          ['url'],
+  'venue':        ['venue'],
   'volume':       ['volume'],
   'year':         ['year', 'date'],
   'ready':        ['ready']
