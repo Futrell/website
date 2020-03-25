@@ -45,4 +45,4 @@ user_groups:
 - Members
 ---
 
-Martina is writing her Master's thesis at ETH Zürich, supervised by Clara. Her academic interests are neural machine translation, morphology and cross-lingual learning. Also, she likes learning new languages and eating lots of chocolate. 
+Martina is writing her Master's thesis at ETH Zürich, supervised by Clara and Ryan. Her academic interests are neural machine translation, morphology and cross-lingual learning. Also, she likes learning new languages and eating lots of chocolate. 
