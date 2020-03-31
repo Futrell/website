@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MPhil Student
+role: MEng Student
 
 # Organizations/Affiliations
 organizations:

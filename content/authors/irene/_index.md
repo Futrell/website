@@ -22,6 +22,7 @@ bio: MPhil student at the University of Cambridge
 
 interests:
 - information-theoretic linguistics
+- Bayesian statistics
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -49,4 +50,4 @@ email: ""
 user_groups:
 - Members
 ---
-
+Irene is an MPhil student at the University of Cambridge, where she is supervised by Ryan. She received her BSc in Computer Science with a minor in mathematics and statistics from the University of Helsinki. Her primary interests are machine learning and anything in the intersection of computer science and statistics. During her free time she likes running (away from responsibilities) and correcting people who say that Finland is part of Scandinavia.
