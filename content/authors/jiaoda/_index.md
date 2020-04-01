@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Martina Forster
+name: Jiaoda Li
 
 # Username (this should match the folder name)
 authors:
-- martina
+- jiaoda
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,9 +21,7 @@ organizations:
 bio: 
 
 interests:
-- Machine Translation
-- Morphology
-- Cross-Lingual Learning
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -32,7 +30,7 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:martfors@student.ethz.ch"  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:jiaoli@student.ethz.ch"  # For a direct email link, use "mailto:test@example.org".
 
 
 
@@ -45,4 +43,4 @@ user_groups:
 - Members
 ---
 
-Martina is writing her Master's thesis at ETH Zürich, supervised by Clara and Ryan. Her academic interests are neural machine translation, morphology and cross-lingual learning. Also, she likes learning new languages and eating lots of chocolate. 
+
