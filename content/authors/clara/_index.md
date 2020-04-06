@@ -35,7 +35,7 @@ social:
   link: "mailto:cmeister7.47@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
-  link: https://github.com/cmeister747
+  link: https://github.com/cimeister
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/ClaraIsabelMei1

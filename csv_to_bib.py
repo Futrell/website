@@ -103,9 +103,10 @@ def to_bib(ref):
   bib_ref = "@%s{%s, \n" % (ref_type, ref.get(KEY, "unnamed"))
   for attr, attr_value in ref.items():
     if attr == READY_KEY:
-        if attr_value == 'no':
-          return None, None, None
-        continue
+      pass
+        # if attr_value == 'no':
+        #   return None, None, None
+        # continue
     if attr == 'featured':
       if attr_value == 'yes':
         featured = True
