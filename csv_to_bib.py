@@ -33,7 +33,8 @@ BIB_ATTRIBUTE_MAP = {
   'venue':        ['venue'],
   'volume':       ['volume'],
   'year':         ['year', 'date'],
-  'ready':        ['ready']
+  'ready':        ['ready'],
+  'recent':       ['recent']
 }
 
 class CSVParseError(Exception):
@@ -103,14 +104,16 @@ def to_bib(ref):
   bib_ref = "@%s{%s, \n" % (ref_type, ref.get(KEY, "unnamed"))
   for attr, attr_value in ref.items():
     if attr == READY_KEY:
-      pass
-        # if attr_value == 'no':
-        #   return None, None, None
-        # continue
+        if attr_value == 'no':
+          return None, None, None
+        continue
     if attr == 'featured':
       if attr_value == 'yes':
         featured = True
       continue
+
+    if attr == 'recent':
+      attr_value = "true" if attr_value == "yes" else "false"
 
     if attr == KEY:
       continue

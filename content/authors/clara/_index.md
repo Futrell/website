@@ -41,7 +41,7 @@ social:
   link: https://twitter.com/ClaraIsabelMei1
 - icon: portrait
   icon_pack: fas
-  link: "cimeister.github.io"
+  link: "https://cimeister.github.io"
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
