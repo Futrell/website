@@ -22,7 +22,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#F3FFF7"
+  color = "#f0fff3"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
@@ -42,11 +42,14 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+
+[blackfriday]
+  fractions = false
 +++
 
-* **[Jennifer White](authors/jen/)** receives funding for the entirety of her PhD at the University of Cambridge; she is to be co-advised by Ryan Cotterell and Simone Teufel
+* **23/4:** **[Jennifer White](authors/jen/)** receives funding for the entirety of her PhD at the University of Cambridge; she is to be co-advised by Ryan Cotterell and Simone Teufel. Congrats, Jennifer!
 
-* 7 papers (5 long, 2 short) have been accepted to ACL 2020
+* **4/4**: 7 papers (5 long, 2 short) accepted to ACL 2020
   - [Information-Theoretic Probing for Linguistic Structure](publication/pimentelal-acl-20/)
   - [A Tale of a Probe and a Parser](publication/hall-maudslayal-acl-20/)
   - [Predicting Declension Class from Form and Meaning](publication/williamsal-acl-20/)
