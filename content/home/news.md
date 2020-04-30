@@ -46,6 +46,9 @@ subtitle = ""
 [blackfriday]
   fractions = false
 +++
+* **30/4** [Rowan Hall Maudslay](authors/rowan/) receives the Leslie Wilson Vice-Chancellor's Scholarship which will fund his entire doctoral studies in the Computer Laboratory (Department of Computer Science and Technology) at the University of Cambridge. He will be co-advised by Ryan Cotterell and Simone Teufel. Congrats, Rowan!
+
+* **28/4** Niklas Stoehr will start his PhD at ETH Zürich in October 2020. He will be co-advised by Ryan Cotterell and Robert West of EPFL.
 
 * **23/4:** **[Jennifer White](authors/jen/)** receives funding for the entirety of her PhD at the University of Cambridge; she is to be co-advised by Ryan Cotterell and Simone Teufel. Congrats, Jennifer!
 
