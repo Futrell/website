@@ -1,15 +1,14 @@
 ---
-title: "Unsupervised Acquisition of Inflectional Morphology"
+title: "The Paradigm Completion Problem"
 date: 2020-07-01
-publishDate: 2020-04-20T09:36:11.361703Z
+publishDate: 2020-05-03T13:16:45.662544Z
 authors: ["Alexander Erdmann", "Micha Elsner", "Shijie Wu", "Ryan Cotterell", "Nizar Habash"]
 publication_types: ["1"]
-abstract: "We address Paradigm Discovery, the problem of learning an inflectional system from raw corpus data alone. Using currently available resources, we present a framework for performing and evaluating this challenging task across a variety of languages. We propose a baseline system which uses embeddings and sequence alignment to cluster word forms by paradigm membership and by morphosyntactic properties. Then it uses a transformer to predict forms to fill any empty paradigm cells. Performance is better on clustering by paradigms than by morphosyntactic properties, while cell filling is most difficult. Our analysis suggests multiple inflection classes is the most pressing challenge for future work."
+abstract: "This work treats the paradigm discovery problem (PDP)—the task of learning an inflectional morphological system from unannotated sentences. We formalize the PDP and develop evaluation metrics for judging systems. Using currently available resources, we construct datasets for the task. We also devise a heuristic benchmark for the PDP and report empirical results on five diverse languages. Our benchmark system first makes use of word embeddings and string similarity to cluster forms by cell and by paradigm. Then, we bootstrap a neural transducer on top of the clustered data to predict words to realize the empty paradigm slots. An error analysis of our system suggests clustering by cell across different inflection classes is the most pressing challenge for future work. Our code and data are available at https://github.com/alexerdmann/ParadigmDiscovery."
 featured: false
 publication: "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
 publication_short: "ACL"
 links:
-recent: true
 url_pdf: papers/erdmann+al.acl20.pdf
 ---
 
