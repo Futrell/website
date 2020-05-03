@@ -57,8 +57,8 @@ subtitle = ""
   - [A Tale of a Probe and a Parser](publication/hall-maudslayal-acl-20/)
   - [Predicting Declension Class from Form and Meaning](publication/williamsal-acl-20/)
   - [A Corpus for Large-Scale Phonetic Typology](publication/saleskyal-acl-20/)
-  - [Measuring the Difficulty of Neural Translation](publication/bugliarelloal-acl-20/)
-  - [Unsupervised Acquisition of Inflectional Morphology](publication/erdmannal-acl-20/)
+  - [It's Easier to Translate out of English than into it: Measuring Neural Translation Difficulty by Cross-Mutual Information](publication/bugliarelloal-acl-20/)
+  - [The Paradigm Completion Problem](publication/erdmannal-acl-20/)
   - [Generalized Entropy Regularization or: There's Nothing Special about Label Smoothing](publication/meisteral-acl-20/)
 
 
