@@ -46,7 +46,7 @@ subtitle = ""
 [blackfriday]
   fractions = false
 +++
-* **4/5:** [On the Relationships Between the Grammatical Genders of Inanimate Nouns and Their Co-Occurring Adjectives and Verbs](publication/williamsal-tacl-20/) accepted to TACL 2020.
+* **4/5:** [On the Relationships Between the Grammatical Genders of Inanimate Nouns and Their Co-Occurring Adjectives and Verbs](publication/williamsal-tacl-20/) to appear in TACL 2020.
 
 * **30/4:** **[Rowan Hall Maudslay](authors/rowan/)** receives the Leslie Wilson Vice-Chancellor's Scholarship which will fund his entire doctoral studies in the Computer Laboratory (Department of Computer Science and Technology) at the University of Cambridge. He will be co-advised by Ryan Cotterell and Simone Teufel. Congrats, Rowan!
 
