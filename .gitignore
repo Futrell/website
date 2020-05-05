@@ -3,3 +3,6 @@ public/
 master/
 *.DS_Store
 pictures/
+upload_script.sh
+bibs/
+csv_to_bib.py

@@ -18,6 +18,7 @@ BIB_ATTRIBUTE_MAP = {
   'arXiv':        ['arxiv'],
   'booktitle':    ['volume title', 'booktitle'],
   'chapter':      ['chapter'],
+  'code':         ['code'],
   'edition':      ['edition'],
   'editor':       ['editor', 'editors'],
   'featured':     ['featured'],
