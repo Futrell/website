@@ -131,11 +131,11 @@ def to_bib(ref):
         if author.isspace():
           continue
         full_name = author.split()
-        bib_ref += '%s, ' % full_name[-1]
+        bib_ref += '%s, ' % ' '.join(full_name[1:])#'%s, ' % full_name[-1]
         if i == len(all_authors) - 1:
-          bib_ref += ' '.join(full_name[:len(full_name) - 1])
+          bib_ref += ' '.join(full_name[:1]) #' '.join(full_name[:len(full_name) - 1])
         else:
-          bib_ref += '%s and \n\t' % ' '.join(full_name[:len(full_name) - 1])
+          bib_ref += '%s and \n\t' % ' '.join(full_name[:1])
       bib_ref += '},\n'
     else:
       bib_ref += '  %s = {%s},\n' %(attr, attr_value.strip())
