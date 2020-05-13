@@ -43,4 +43,4 @@ email: ""
 user_groups:
 - Members
 ---
-
+Selena is a second year MSc student in Computer Science at ETH Zürich. Previously, she received her BSc from University of Novi Sad in Serbia. Currently, she is working on a research project with Ryan. Apart from that, she is interested in theoretical computer science and in her spare time enjoys playing bridge. 
