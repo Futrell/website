@@ -21,6 +21,9 @@ organizations:
 bio: 
 
 interests:
+- Machine Comprehension
+- Grounded Language Learning
+- Machine Translation for Extinct Languages
 
 
 # Social/Academic Networking
@@ -42,5 +45,6 @@ email: ""
 user_groups:
 - Members
 ---
-
+Jiaoda is a Master student in Data Science at ETH Zürich. He is currently working on network pruning for his Master’s Thesis, supervised by Ryan and Mrinmaya Sachan. He is interested in natural language understanding.
+ 
 
